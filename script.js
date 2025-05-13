@@ -26,7 +26,7 @@ function launchTabs() {
     }
 
     count++;
-    setTimeout(openTab, 100); // Wait 100ms before opening the next
+    setTimeout(openTab, 0); // Wait 0ms before opening the next
   }
 
   openTab(); // Start the chain
