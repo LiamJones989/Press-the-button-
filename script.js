@@ -1,6 +1,6 @@
 function launchTabs() {
   let count = 0;
-  const maxTabs = 25;
+  const maxTabs = 50;
 
   function openTab() {
     if (count >= maxTabs) return;
